@@ -1,0 +1,57 @@
+.newsletter{
+    text-align: center;
+    width: 100%;
+    clear: both;
+    margin:20px 0;
+
+  }
+
+  input{
+    color:red;
+  }
+
+  footer{
+    background-color:rgb(40, 12, 12);
+  }
+
+  .eccomerce-container{
+    display:flex;
+    /* flex-direction:column; */
+    flex-wrap:wrap;
+    align-items:center;
+    margin:0 80px;
+    justify-content:space-around;
+    padding:50px 0;
+    color:white;
+  }
+
+  .eccomerce-footer{
+    width:25%;
+    
+  }
+
+  .eccomerce-container a{
+    text-decoration:none;
+    display:block;
+    color:white;
+  }
+
+  @media (max-width:425px) {
+    .eccomerce-container{
+      flex-direction:column;
+      /* background-color:red; */
+      margin:0;
+      }
+
+      .eccomerce-footer{
+
+        width:100%;
+        text-align: center;
+        padding:20px 0;
+      }
+
+
+    
+
+  }
+  

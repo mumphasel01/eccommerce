@@ -1,0 +1,320 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+.hero-section{
+background-image:url(../libary/woman\ face.jpg);
+background-position:center;
+background-repeat:no-repeat;
+background-size:cover;
+height:450px;
+display:flex;
+align-items:center;
+justify-content:center;
+
+
+}
+
+
+.text-containerbg{
+    text-align:center;
+    color:white;
+    /* position:absolute; */
+
+}
+
+.home-link{
+    text-decoration:none;
+    color:white;
+}
+#home-link2{
+    text-decoration:none;
+    color:red;
+}
+
+.wear-container{
+    display:flex;
+    gap: 10px;
+    justify-content: space-between;
+    padding: 10px 50px;
+
+}
+
+.wears-category{
+    width:25%;
+    /* background-color:red; */
+    display:flex;
+    gap:10px;
+    flex-wrap: wrap;
+    flex-direction:column;
+    padding:10px 20px;
+
+   
+}
+
+.text-header{
+    color:red;
+}
+
+.underline-text{
+background-color:red;
+height:2px;
+border: none;
+}
+
+.range{
+    margin-top:10px;
+}
+
+.choose-price{
+    display:flex;
+    justify-content:space-evenly;
+    flex-wrap:wrap;
+    gap:10px;
+}
+
+.button-price{
+    background-color:red;
+    color:white;
+    border-color:red;
+    border:none;
+}
+
+.color-button-red{
+    background-color:red;
+}
+
+.color-path{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:space-between;
+    /* gap:10px; */
+    margin-top:10px;
+}
+
+
+.color-button-green{
+    background-color:green;
+padding:10px;
+border: none;
+    /* padding:10px 0; */
+    width: calc(90% / 6);
+}
+
+
+
+.color-button-yellow{
+    background-color:yellow;
+    padding:10px;
+    border: none;
+    /* padding:10px 0; */
+    width: calc(90% / 6);
+}
+
+.color-button-purple{
+    background-color:purple;
+    padding:10px;
+    border: none;
+    /* padding:10px 0; */
+    width: calc(90% / 6);
+}
+
+.color-button-blue{
+    background-color:blue;
+    padding:10px;
+    border: none;
+    /* padding:10px 0; */
+    width: calc(90% / 6);
+}
+
+.color-button-pink{
+    background-color:pink;
+    padding:10px;
+    border: none;
+    /* padding:10px 0; */
+    width: calc(90% / 6);
+}
+
+.color-button-rgb{
+    background-color:rgb(228, 161, 16);
+    padding:10px;
+    border: none;
+    /* padding:10px 0; */
+    width: calc(90% / 6);
+}
+
+.color-button-aqua{
+    background-color:aqua;
+    padding:10px;
+    border: none;
+    /* padding:10px 0; */
+    width: calc(90% / 6);
+}
+
+.color-button-rgb1{
+
+    background-color:rgb(165, 161, 161);
+    padding:10px;
+    border: none;
+    /* padding:10px 0; */
+    width: calc(90% / 6);
+}
+
+.color-button-blackrgb{
+
+    background-color:rgb(80, 77, 77);
+    padding:10px;
+    border: none;
+    /* padding:10px 0; */
+    width: calc(90% / 6);
+}
+
+.color-button-white{
+
+    background-color:rgb(248, 242, 242);
+    padding:10px;
+    border: none;
+    /* padding:10px 0; */
+    width: calc(90% / 6);
+}
+
+.color-button-aqua11{
+    background-color:rgb(6, 206, 251);
+    padding:10px;
+    border: none;
+    /* padding:10px 0; */
+    width: calc(90% / 6);
+}
+
+.color-button-rgb2{
+
+    background-color:rgb(75, 243, 249);
+    padding:10px;
+    border: none;
+    /* padding:10px 0; */
+    width: calc(90% / 6);
+}
+
+.color-button-rgb3{
+
+    background-color:rgb(249, 75, 208);
+    padding:10px;
+    border: none;
+    /* padding:10px 0; */
+    width: calc(90% / 6);
+}
+
+.image-container{
+margin-top:10px;
+}
+
+
+
+
+
+.tag-button{
+    display:flex;
+    justify-content:space-evenly;
+    flex-wrap:wrap;
+    gap:10px;
+    padding-top:20px;
+    padding-right:50px;
+}
+
+.eccomerce-image{
+    display: flex;
+    flex-wrap: wrap;
+    width:75%;
+    /* background-color:blue; */
+
+}
+
+.sort-for-size{
+    display:flex;
+    /* flex-wrap:wrap; */
+    justify-content:space-between;
+    gap:30px;
+
+}
+
+#aaa{
+
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:space-between;
+}
+
+
+.imagebutton{
+    color:white;
+    padding:5px 10px;
+    position:absolute;
+    top:20px;
+    left:0;
+    text-align:center;
+
+}
+
+
+
+
+
+.wears-image{
+    width:30%;
+    /* background-color: blue; */
+    position: relative;
+
+}
+
+.wears-image img{
+    width:100%;
+}
+
+.imagebutton-red {
+    background-color:red;
+}
+.imagebutton-orange {
+    background-color:orange;
+}
+.imagebutton-green {
+    background-color:green;
+}
+
+.textonlabel{
+    text-align:center;
+}
+
+.textonlabel1{
+    color:red;
+    padding-bottom:20px;
+    text-align:center;
+}
+
+@media(max-width:425px) {
+   .wear-container{
+    flex-direction:column-reverse;
+   } 
+
+   .wears-category{
+    width:100%;
+   }
+
+   .wears-content{
+
+    width:100%;
+   }
+
+   .eccomerce-image{
+    width:100%;
+   }
+
+   .sort-for-size{
+    width:100%;
+   }
+
+}
+
+
+

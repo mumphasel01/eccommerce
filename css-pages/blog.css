@@ -1,0 +1,128 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+.hero-section{
+background-image:url(../libary/woman\ face.jpg);
+background-position:center;
+background-repeat:no-repeat;
+position:relative;
+background-size:cover;
+height:450px;
+align-items:center;
+justify-content:center;
+display:flex;
+
+}
+
+.text-containerbg{
+    text-align:center;
+    color:white;
+
+}
+
+.home-link{
+    text-decoration:none;
+    color:white;
+}
+#home-link2{
+    text-decoration:none;
+    color:red;
+}
+
+.wrap-contaniner{
+    display:flex;
+    gap: 20px;
+    justify-content: space-between;
+    padding: 10px 50px;
+
+}
+
+.content-container{
+
+width:75%;
+display:flex;
+justify-content:space-between;
+/* gap:10px; */
+flex-wrap: wrap;
+
+}
+
+.column-container{
+    width:25%;
+    display:flex;
+    /* justify-content:space-between; */
+    gap:10px;
+    flex-direction:column;
+    flex-wrap:wrap;
+}
+
+.text-header{
+    color:red;
+}
+
+.tag-button{
+    display:flex;
+    justify-content:space-evenly;
+    flex-wrap:wrap;
+    gap:10px;
+    padding-top:20px;
+    padding-right:50px;
+}
+
+.underline-text{
+background-color:red;
+height:2px;
+border: none;
+}
+
+.text-content{
+    width:30%;
+    margin-top:20px;
+}
+
+.conten-image{
+    width:100%;
+    height:300px;
+}
+
+.content-image img{
+    /* height:300px; */
+}
+
+@media (max-width:768px) {
+    .content-container{
+        flex-direction: column;
+        /* flex-wrap:wrap; */
+    }
+    
+    .text-content{
+        width:100%;
+        }
+}
+
+@media (max-width:425px) {
+  .wrap-contaniner{
+    width:100%;
+    flex-direction:column;
+  }
+  .text-content{
+    width:100%;
+    text-align:center;
+  }
+
+  .content-container{
+    width:100%;
+  }
+
+  .content-container1{
+    width:100%;
+    text-align:center;
+  }
+
+  .column-container{
+    width:100%;
+  }
+}

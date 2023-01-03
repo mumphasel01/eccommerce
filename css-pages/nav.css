@@ -1,0 +1,51 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+
+#ecommercelogo{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:space-around;
+    padding:30px;
+}
+
+nav{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    background-color:rgb(243, 12, 12);
+    padding:20px;
+    position:sticky;
+    z-index:1;
+    top:0;
+}
+
+ul{
+    display:flex;
+    list-style-type:none;
+}
+
+nav a{
+    display:inline-block;
+    text-decoration:none;
+    padding:0 30px;
+    color:white;
+    justify-content:space-around;
+}
+
+@media (max-width: 425px) {
+    #ecommercelogo{
+        flex-wrap:nowrap;
+    }
+    ul {
+        flex-direction:column;
+        text-align: center;
+        gap: 15px;
+        font-size: 25px;
+    }
+    
+}
+
